@@ -1,0 +1,44 @@
+*{
+    box-sizing:border-box
+}
+body {
+  margin: 0;
+  background: #2c2b39;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 600px;
+  height: 340px;
+  margin: 0 auto; 
+  position: relative;
+}
+.card {
+  width: 600px;
+  height: 340px;
+  box-shadow:0 17px 17px 0 rgba(255, 255, 255, 0.5);
+  background-color: aliceblue;
+}
+.images{
+    max-width: 150px;
+    margin-left: 37%;
+}
+.back{
+    margin-top: 15px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+.details h1{
+    color: blueviolet;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.details h3{
+    margin-top: -10px;
+}
